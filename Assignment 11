@@ -1,0 +1,83 @@
+
+#python program to sum all
+ the items in a dictionary
+ def returnSum(myDict):
+ sum = 0 for i in myDict: 
+sum = sum + myDict[i]
+ return 
+sum dict1={'a':100,'b':200,'c':300}
+ print("The Sum of elements in the dictionary is",returnSum(dict1)) 
+
+The Sum of elements in the dictionary is 600 
+
+In [2]:
+
+#Python program to demonstrate
+ accessing an element from a
+ Dictionary dict2={1:'One',2:'Two',3:'Three'} 
+print("\nIt is dictionary with the use of Integer Keys: ")
+ print(dict2) 
+dict3={'Name':'Shaik',1:[1, 2, 3, 4]} 
+print("\nIt is dictionary with the use of Mixed Keys: ") 
+print(dict3) 
+
+It is dictionary with the 
+use of Integer Keys: 
+{1: 'One', 2: 'Two', 3: 'Three'} 
+It is dictionary with the use 
+of Mixed Keys: 
+{'Name': 'itlap', 1: [1, 2, 3, 4]} 
+
+In [3]:
+
+#Python program to concate
+ two dictionaries 
+d1={'A':1,'B':2} 
+d2={'C':3} 
+d1.update(d2) 
+print("Concatenated dictionary is:")
+ print(d1) 
+
+Concatenated dictionary is: 
+{'A': 1, 'B': 2, 'C': 3} 
+
+In [4]:
+
+#Python program to add 
+keys/values in a dictionary 
+(update dictionary)
+dict = {'key1':'itlap','key2':'haneef'} 
+print("Current Dict is: ",dict)
+ dict['key2'] ='Captain' 
+dict['key3'] ='America' 
+print("Updated Dict is: ", dict) 
+
+Current Dict is: {'key1': 'itlap', 'key2': 'haneef'}
+ Updated Dict is: {'key1': 'itlap', 'key2': 'Captain', 'key3': 'America'} 
+
+In [5]:
+
+#Python program to find
+ the length of a dictionary
+ in Python?
+ dict1 ={'Name':'Shaik','Age':19,'Course':'CSE'} 
+print("len() method :", len(dict1)) 
+print("len() method with keys() :", 
+len(dict1.keys())) 
+print("len() method with values() :", 
+len(dict1.values())) 
+
+len() method : 3 len() method 
+with keys() : 3 len() method 
+with values() : 3 
+
+In [6]:
+
+#Python program to remove 
+items from the dictionary 
+in Python dict6={'a':1,'b':2,'c':3,'d':4}
+ print(dict6) if 'a' in dict6: 
+del dict6['a'] print(dict6) 
+
+{'a': 1, 'b': 2, 'c': 3, 'd': 4} {'b': 2, 'c': 3, 'd': 4}
+
